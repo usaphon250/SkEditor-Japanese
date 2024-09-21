@@ -1,6 +1,6 @@
 # SkEditor-Japanese
 
-このリポジトリは、[SkEditor](https://github.com/Sashie/SkEditor) を日本語で使用するためのプロジェクトです。SkEditor-Japaneseは、SkEditorのUIやメッセージ、ドキュメントを日本語化し、日本のユーザーがより使いやすくすることを目的としています。
+このリポジトリは、[SkEditor](https://github.com/SkEditorTeam/SkEditor) を日本語で使用するためのプロジェクトです。SkEditor-Japaneseは、SkEditorのUIやメッセージ、ドキュメントを日本語化し、日本のユーザーがより使いやすくすることを目的としています。
 
 ## 特徴
 
@@ -9,7 +9,7 @@
 
 ## インストール方法
 
-1. SkEditorの本体をインストールします。ダウンロードは[こちら](https://github.com/Sashie/SkEditor)から行ってください。
+1. SkEditorの本体をインストールします。ダウンロードは[こちら](https://github.com/SkEditorTeam/SkEditor)から行ってください。
 
 2. リリースから `Japanese.xaml` をダウンロードします。
 
