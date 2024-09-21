@@ -1,0 +1,437 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=System.Runtime">
+
+	<!-- ウィンドウタイトル -->
+	<system:String x:Key="WindowTitlePublish">公開</system:String>
+	<system:String x:Key="WindowTitleRefactor">リファクタリング</system:String>
+	<system:String x:Key="WindowTitleSettings">設定</system:String>
+	<system:String x:Key="WindowTitleFontSelector">フォント選択</system:String>
+	<system:String x:Key="WindowTitleSaveFilePicker">ファイル保存</system:String>
+	<system:String x:Key="WindowTitleOpenFilePicker">ファイルを開く</system:String>
+	<system:String x:Key="WindowTitleGuiGenerator">GUI生成</system:String>
+	<system:String x:Key="WindowTitleCommandGenerator">コマンド生成</system:String>
+	<system:String x:Key="WindowTitleItemSelector">アイテム選択</system:String>
+	<system:String x:Key="WindowTitleMarketplace">マーケットプレイス</system:String>
+	<system:String x:Key="WindowTitleElementRename">名前変更</system:String>
+	<system:String x:Key="WindowTitleElementCreate">作成</system:String>
+	<system:String x:Key="WindowTitleColorSelector">カラーセレクター</system:String>
+
+	<!-- メニューの見出し -->
+	<system:String x:Key="MenuHeaderFile">ファイル</system:String>
+	<system:String x:Key="MenuHeaderEdit">編集</system:String>
+	<system:String x:Key="MenuHeaderTools">ツール</system:String>
+	<system:String x:Key="MenuHeaderOther">その他</system:String>
+	<system:String x:Key="MenuHeaderAddons">アドオン</system:String>
+	<system:String x:Key="MenuHeaderManageAddons">アドオン管理</system:String>
+
+	<!-- ファイルメニュー -->
+	<system:String x:Key="MenuHeaderNew">新規</system:String>
+	<system:String x:Key="MenuHeaderOpen">開く</system:String>
+	<system:String x:Key="MenuHeaderOpenFolder">フォルダを開く</system:String>
+	<system:String x:Key="MenuHeaderSave">保存</system:String>
+	<system:String x:Key="MenuHeaderSaveAs">名前を付けて保存</system:String>
+	<system:String x:Key="MenuHeaderSaveAll">すべて保存</system:String>
+	<system:String x:Key="MenuHeaderPublish">公開</system:String>
+	<system:String x:Key="MenuHeaderClose">閉じる</system:String>
+	<system:String x:Key="MenuHeaderCloseCurrentFile">現在のファイルを閉じる</system:String>
+	<system:String x:Key="MenuHeaderCloseAll">すべて閉じる</system:String>
+	<system:String x:Key="MenuHeaderCloseAllButCurrent">現在のファイル以外をすべて閉じる</system:String>
+	<system:String x:Key="MenuHeaderCloseUnsaved">未保存のすべてを閉じる</system:String>
+	<system:String x:Key="MenuHeaderCloseLeft">左側のすべてを閉じる</system:String>
+	<system:String x:Key="MenuHeaderCloseRight">右側のすべてを閉じる</system:String>
+
+	<!-- 編集メニュー -->
+	<system:String x:Key="MenuHeaderCopy">コピー</system:String>
+	<system:String x:Key="MenuHeaderPaste">貼り付け</system:String>
+	<system:String x:Key="MenuHeaderCut">切り取り</system:String>
+	<system:String x:Key="MenuHeaderUndo">元に戻す</system:String>
+	<system:String x:Key="MenuHeaderRedo">やり直す</system:String>
+	<system:String x:Key="MenuHeaderDuplicate">重複</system:String>
+	<system:String x:Key="MenuHeaderComment">コメント</system:String>
+	<system:String x:Key="MenuHeaderDelete">削除</system:String>
+	<system:String x:Key="MenuHeaderGoToLine">行に移動</system:String>
+	<system:String x:Key="MenuHeaderTrimWhitespaces">空白をトリム</system:String>
+
+	<!-- ツールメニュー -->
+	<system:String x:Key="MenuHeaderDocumentation">ドキュメント</system:String>
+	<system:String x:Key="MenuHeaderGenerate">生成</system:String>
+	<system:String x:Key="MenuHeaderGenerateGUI">GUI</system:String>
+	<system:String x:Key="MenuHeaderGenerateCommand">コマンド</system:String>
+	<system:String x:Key="MenuHeaderRefactor">リファクタリング</system:String>
+	<system:String x:Key="MenuHeaderColorSelector">カラーセレクター</system:String>
+	
+	<!-- その他メニュー -->
+	<system:String x:Key="MenuHeaderMarketplace">マーケットプレイス</system:String>
+	<system:String x:Key="MenuHeaderRefreshSyntax">構文を更新</system:String>
+
+	<!-- プロジェクトメニュー -->
+	<system:String x:Key="MenuHeaderOpenInExplorer">エクスプローラーで開く</system:String>
+	<system:String x:Key="MenuHeaderCopyPath">相対パスをコピー</system:String>
+	<system:String x:Key="MenuHeaderCopyAbsolutePath">絶対パスをコピー</system:String>
+	<system:String x:Key="MenuHeaderRename">名前変更</system:String>
+	<system:String x:Key="MenuHeaderNewFile">新しいファイル</system:String>
+	<system:String x:Key="MenuHeaderNewFolder">新しいフォルダ</system:String>
+	<system:String x:Key="MenuHeaderCloseProject">プロジェクトを閉じる</system:String>
+
+	<!-- ボタン -->
+	<system:String x:Key="ApplyButton">適用</system:String>
+	<system:String x:Key="ConfirmButton">確認</system:String>
+	<system:String x:Key="CloseButton">閉じる</system:String>
+	<system:String x:Key="SelectButton">選択</system:String>
+	<system:String x:Key="CancelButton">キャンセル</system:String>
+	<system:String x:Key="ContinueButton">続ける</system:String>
+	<system:String x:Key="Error">エラー</system:String>
+	<system:String x:Key="Success">成功</system:String>
+	<system:String x:Key="Attention">注意!</system:String>
+	<system:String x:Key="Yes">はい</system:String>
+	<system:String x:Key="No">いいえ</system:String>
+	<system:String x:Key="Okay">了解</system:String>
+
+	<!-- メッセージ -->
+	<system:String x:Key="NewFileNameFormat">新しいファイル {0}</system:String>
+	<system:String x:Key="FailedToDownloadSyntax">構文ハイライトファイルのダウンロードに失敗しました！インターネット接続を確認してください。接続がないと、コードがハイライトされません。</system:String>
+	<system:String x:Key="DownloadingMissingFilesTitle">欠落ファイル</system:String>
+	<system:String x:Key="Downloading">ダウンロード中</system:String>
+	<system:String x:Key="DownloadingMissingFilesDescriptionItems">アイテムセレクターで使用するファイルが欠落しており、現在ダウンロード中です。</system:String>
+	<system:String x:Key="DownloadingMissingFiles">ダウンロード中</system:String>
+	<system:String x:Key="DownloadMissingFilesFailed">欠落ファイルのダウンロードに失敗しました。後で再試行してください。</system:String>
+	<system:String x:Key="ClosingUnsavedFile">このファイルには未保存の変更があります。本当に閉じますか？</system:String>
+	<system:String x:Key="ClosingFiles">ファイルを閉じてもよろしいですか？未保存の変更は失われます。</system:String>
+	<system:String x:Key="ClosingProgramWithUnsavedFiles">未保存の変更があるファイルがあります。本当にアプリケーションを閉じますか？</system:String>
+	<system:String x:Key="ChangesDetected">このファイルは外部で変更されました。\n再読み込みしますか？SkEditorでの変更が失われる可能性があります。</system:String>
+	<system:String x:Key="DownloadingUpdateTitle">更新のダウンロード</system:String>
+	<system:String x:Key="UpdateAvailable">更新があります</system:String>
+	<system:String x:Key="UpdateAvailableMessage">更新があります。\n今すぐダウンロードしますか？</system:String>
+	<system:String x:Key="UpdateFailed">更新のダウンロードに失敗しました。後で再試行してください。</system:String>
+	<system:String x:Key="BinaryFileFound">バイナリファイル（または非テキストファイル）を開こうとしています。\n\nそれでも開きますか？SkEditorは正しく扱えない可能性があります。</system:String>
+	<system:String x:Key="BinaryFileTitle">バイナリファイルが見つかりました</system:String>
+
+	<!-- 公開ウィンドウ -->
+	<system:String x:Key="PublishWindowNoApiKey">設定でAPIキーを設定してください</system:String>
+	<system:String x:Key="PublishWindowApiKeyHint">APIキーのウェブサイトを開くにはここをクリックしてください。最初にログインしてください！</system:String>
+	<system:String x:Key="PublishWindowAnonymously">匿名で</system:String>
+	<system:String x:Key="PublishWindowResultLink">コードへのリンク</system:String>
+	<system:String x:Key="PublishWindowPublishButton">公開</system:String>
+	<system:String x:Key="PublishWindowWarning">APIキーは設定 -> 接続で管理できます。</system:String>
+
+	<!-- ローカルドキュメントマネージャーウィンドウ -->
+	<system:String x:Key="LocalDocsManagerWindowTitle">ローカルドキュメントマネージャー</system:String>
+	<system:String x:Key="LocalDocsManagerWindowInfo">ここからダウンロードしたドキュメント要素を管理できます。</system:String>
+	<system:String x:Key="LocalDocsManagerWindowDeleteEverything">すべて削除</system:String>
+	<system:String x:Key="LocalDocsManagerWindowGroupBy">グループ化</system:String>
+	<system:String x:Key="LocalDocsManagerWindowGroupByProvider">プロバイダー</system:String>
+	<system:String x:Key="LocalDocsManagerWindowGroupByType">タイプ</system:String>
+	<system:String x:Key="LocalDocsManagerWindowGroupByAddon">アドオン</system:String>
+	<system:String x:Key="LocalDocsManagerWindowEntryDescription">{0} 提供者: {1}</system:String>
+
+	<!-- (要素) ドキュメントコントロール -->
+	<system:String x:Key="DocumentationControlExamples">例</system:String>
+	<system:String x:Key="DocumentationControlActions">アクション</system:String>
+	<system:String x:Key="DocumentationControlEventValues">イベント値</system:String>
+	<system:String x:Key="DocumentationControlChangers">チェンジャー</system:String>
+	
+	<system:String x:Key="DocumentationControlActionsFilter">この要素でフィルタ...</system:String>
+	<system:String x:Key="DocumentationControlType">タイプ</system:String>
+	<system:String x:Key="DocumentationControlAddon">アドオン</system:String>
+	
+	<system:String x:Key="DocumentationControlChangerHelp">希望のチェンジャーをクリックして生成されたコードをコピーします。</system:String>
+	<system:String x:Key="DocumentationControlSince">バージョン{0}から</system:String>
+	<system:String x:Key="DocumentationControlDownload">ダウンロード</system:String>
+	<system:String x:Key="DocumentationControlRemove">削除</system:String>
+	<system:String x:Key="DocumentationControlExampleAuthor">作成者: {0}</system:String>
+
+	<system:String x:Key="DocumentationControlNoExamples">この要素の例は見つかりませんでした。</system:String>
+	<system:String x:Key="DocumentationControlNoEventValues">この要素のイベント値は見つかりませんでした。</system:String>
+	<system:String x:Key="DocumentationControlNoChangers">チェンジャーは見つかりませんでした。</system:String>
+	<system:String x:Key="DocumentationControlNoDescription">説明は提供されていません。</system:String>
+
+	<system:String x:Key="DocumentationControlErrorExamples">例の読み込み中にエラーが発生しました: {0}</system:String>
+
+	<!-- ドキュメントウィンドウ -->
+	<system:String x:Key="DocumentationWindowTitle">ドキュメント</system:String>
+	<system:String x:Key="DocumentationWindowSearchQuery">検索クエリ</system:String>
+	<system:String x:Key="DocumentationWindowSearch">検索</system:String>
+	<system:String x:Key="DocumentationWindowFilteredType">フィルタされたタイプ</system:String>
+	<system:String x:Key="DocumentationWindowFilteredAddon">フィルタされたアドオン</system:String>
+	<system:String x:Key="DocumentationWindowProvider">プロバイダー</system:String>
+	<system:String x:Key="DocumentationWindowManageCached">キャッシュされた要素を管理</system:String>
+	<system:String x:Key="DocumentationWindowDownloadAll">見つかったすべてをダウンロード</system:String>
+	<system:String x:Key="DocumentationWindowLoading">読み込み中...</system:String>
+
+	<system:String x:Key="DocumentationWindowErrorGlobal">ドキュメントの取得中にエラーが発生しました。\n\n{0}</system:String>
+	<system:String x:Key="DocumentationWindowErrorOffline">ドキュメントサーバーへのリクエストがタイムアウトしました。ドキュメントはダウンしていますか？</system:String>
+
+	<system:String x:Key="DocumentationWindowNoProvidersMessage">ドキュメントプロバイダーが選択されていません。\n\n設定からAPIキーを接続する必要があります。</system:String>
+	
+	<system:String x:Key="DocumentationWindowNoResults">結果が見つかりませんでした。</system:String>
+	<system:String x:Key="DocumentationWindowNoProviders">プロバイダーが見つかりませんでした。</system:String>
+	<system:String x:Key="DocumentationWindowInvalidData">無効な検索データ。</system:String>
+	<system:String x:Key="DocumentationWindowAnErrorOccured">エラーが発生しました。</system:String>
+	<system:String x:Key="DocumentationWindowTooManyResults">結果が多すぎます。</system:String>
+	<system:String x:Key="DocumentationWindowTooManyResultsMessage">検索結果が100件を超えました。すべてを表示しますか？\n\nアプリが遅くなる可能性があります！</system:String>
+	<system:String x:Key="DocumentationWindowInvalidDataQuery">クエリは3文字以上でなければなりません</system:String>
+	<system:String x:Key="DocumentationWindowSkriptMCBad">SkriptMCはすべてのタイプを検索することをサポートしていません。</system:String>
+	<system:String x:Key="DocumentationWindowSkriptMCBad2">SkriptMCは現在ドキュメントに利用できません。後で再試行してください。</system:String>
+
+	<system:String x:Key="DocumentationWindowNoEntries">ドキュメントエントリが見つかりませんでした。まず検索してみてください。</system:String>
+	<system:String x:Key="DocumentationWindowDownloadAllMessage">見つかったすべてのドキュメントエントリをダウンロードしてもよろしいですか？（合計: {0}）</system:String>
+	<system:String x:Key="DocumentationWindowDownloadingElements">要素をダウンロード中...</system:String>
+	<system:String x:Key="DocumentationWindowDownloading">ダウンロード中</system:String>
+	<system:String x:Key="DocumentationWindowDownloadingMessage">ドキュメントエントリをダウンロードしています。しばらくお待ちください...</system:String>
+	
+	<system:String x:Key="DocumentationWindowCacheSkriptHub">SkriptHubの要素をキャッシュ中...</system:String>
+	<system:String x:Key="DocumentationWindowCacheSkriptHubMessage">SkriptHubの要素をキャッシュしています。しばらくお待ちください...</system:String>
+	<system:String x:Key="DocumentationWindowSorting">ダウンロードした要素をソート中...</system:String>
+	
+	<system:String x:Key="DocumentationWindowFetchAgain">ドキュメントを再取得</system:String>
+	<system:String x:Key="DocumentationWindowFetchWarning">これはSkriptHubからドキュメントエントリを再取得します。すべてを更新したい場合以外は必要ありません。本当に続行しますか？</system:String>
+	<system:String x:Key="DocumentationWindowFetchSuccessMessage">キャッシュが削除されました。再度検索して要素を再ダウンロードする必要があります。</system:String>
+
+	<!-- リファクタウィンドウ -->
+	<system:String x:Key="RefactorWindowRemoveComments">コメントを削除</system:String>
+	<system:String x:Key="RefactorWindowTabsToSpaces">タブをスペースに変換</system:String>
+	<system:String x:Key="RefactorWindowSpacesToTabs">スペースをタブに変換</system:String>
+	<system:String x:Key="RefactorWindowRefactorBoxName">'{0}'をリネーム中...</system:String>
+	
+	<!-- カラーセレクター -->
+	<system:String x:Key="ColorSelectorWindowHexResult">16進数での結果</system:String>
+
+	<!-- プロジェクト -->
+	<system:String x:Key="ProjectExplorerTitle">エクスプローラー</system:String>
+	<system:String x:Key="ProjectExplorerInfoText">まだフォルダを開いていません。</system:String>
+	<system:String x:Key="ProjectExplorerInfoButton">フォルダを開く</system:String>
+	<system:String x:Key="ProjectRenameText">名前変更中...</system:String>
+	<system:String x:Key="ProjectRenameErrorNameEmpty">名前は空にできません。</system:String>
+	<system:String x:Key="ProjectRenameErrorParentNull">親は空にできません。</system:String>
+	<system:String x:Key="ProjectErrorNameExists">この名前のファイルまたはフォルダはすでに存在します。</system:String>
+	<system:String x:Key="ProjectRenameErrorSameName">新しい名前は古い名前と同じです。</system:String>
+	<system:String x:Key="ProjectCreateFileName">ファイル名</system:String>
+	<system:String x:Key="ProjectCreateFolderName">フォルダ名</system:String>
+	<system:String x:Key="ProjectCreateTemplate">テンプレート</system:String>
+	
+	<!-- コードパーサー -->
+	<system:String x:Key="CodeParserTitle">コードパーサー</system:String>
+	<system:String x:Key="CodeParserWarning">コードパーサーはまだベータ版です！見つけたバグはDiscordサーバーで報告してください。</system:String>
+	<system:String x:Key="CodeParserEnableInfo">コードパーサーはまだベータ版で、バグが発生する可能性があります。デフォルトでは無効になっていますが、以下のボタンで有効にできます。</system:String>
+	<system:String x:Key="CodeParserSearch">検索...</system:String>
+	<system:String x:Key="CodeParserFilterName">名前でフィルタ</system:String>
+	<system:String x:Key="CodeParserFilterType">タイプでフィルタ</system:String>
+	<system:String x:Key="CodeParserFilterTypeAny">任意</system:String>
+	<system:String x:Key="CodeParserFilterTypeFunctions">関数</system:String>
+	<system:String x:Key="CodeParserFilterTypeEvents">イベント</system:String>
+	<system:String x:Key="CodeParserFilterTypeOptions">オプション</system:String>
+	<system:String x:Key="CodeParserFilterTypeCommands">コマンド</system:String>
+	<system:String x:Key="CodeParserClearFilters">現在のフィルタをクリア</system:String>
+	<system:String x:Key="CodeParserNavigate">ナビゲート</system:String>
+	<system:String x:Key="CodeParserNavigateToDefinition">定義にナビゲート</system:String>
+	<system:String x:Key="CodeParserRename">名前変更</system:String>
+	<system:String x:Key="CodeParserNoSections">コード内にセクションが見つかりませんでした。何かを書いてみてください！ :)</system:String>
+	<system:String x:Key="CodeParserBadFormat">このファイルは解析できません。Skriptファイルのように見えません。</system:String>
+	<system:String x:Key="CodeParserParseCode">コードを解析</system:String>
+	<system:String x:Key="CodeParserParsed">現在のコードが解析されました</system:String>
+
+	<!-- ファイル関連付け選択ウィンドウ -->
+	<system:String x:Key="FileAssociationSelectionWindowTitle">ファイル関連付けを選択</system:String>
+	<system:String x:Key="FileAssociationSelectionWindowInfo">このファイルタイプには複数のプロバイダーがあります。1つ選択してください。</system:String>
+	<system:String x:Key="FileAssociationSelectionWindowOfficialItem">これはSkEditorの公式ファイルタイプです。</system:String>
+	<system:String x:Key="FileAssociationSelectionWindowUnofficialItem">これはアドオンの非公式ファイルタイプです: {0}。</system:String>
+	<system:String x:Key="FileAssociationSelectionWindowRememberMyChoice">選択を記憶する</system:String>
+
+	<!-- 設定 -->
+	<system:String x:Key="SettingsEnabled">有効</system:String>
+	<system:String x:Key="SettingsDisabled">無効</system:String>
+
+	<!-- 設定ホーム -->
+	<system:String x:Key="SettingsHomeTitle">設定</system:String>
+	<system:String x:Key="SettingsHomeGeneral">一般</system:String>
+	<system:String x:Key="SettingsHomeGeneralDescription">言語、テキストエディタの機能</system:String>
+	<system:String x:Key="SettingsHomePersonalization">パーソナライズ</system:String>
+	<system:String x:Key="SettingsHomePersonalizationDescription">テーマ、フォント、構文ハイライト</system:String>
+	<system:String x:Key="SettingsHomeDiscord">Discord</system:String>
+	<system:String x:Key="SettingsHomeDiscordDescription">DiscordプロファイルにSkEditorを表示！</system:String>
+	<system:String x:Key="SettingsHomeExperiments">実験</system:String>
+	<system:String x:Key="SettingsHomeExperimentsDescription">今後の機能をテスト！</system:String>
+	<system:String x:Key="SettingsHomeConnections">接続</system:String>
+	<system:String x:Key="SettingsHomeConnectionsDescription">サードパーティの接続を管理します。</system:String>
+	<system:String x:Key="SettingsHomeAddons">アドオン</system:String>
+	<system:String x:Key="SettingsHomeAddonsDescription">強力なアドオンで体験を向上させましょう！</system:String>
+	<system:String x:Key="SettingsHomeAbout">情報</system:String>
+	<system:String x:Key="SettingsHomeFileTypes">ファイルタイプ</system:String>
+	<system:String x:Key="SettingsHomeFileTypesDescription">ファイルタイプとその関連付けを管理します。</system:String>
+
+	<!-- 一般設定 -->
+	<system:String x:Key="SettingsGeneralTitle">一般</system:String>
+	<system:String x:Key="SettingsGeneralLanguage">言語</system:String>
+	<system:String x:Key="SettingsGeneralWrapping">ラッピング</system:String>
+	<system:String x:Key="SettingsGeneralWrappingDescription">行がビューポートの幅でラップするかどうかを選択します。</system:String>
+	<system:String x:Key="SettingsGeneralTabType">インデントタイプ</system:String>
+	<system:String x:Key="SettingsGeneralTabTypeDescription">タブとスペースのどちらかを選択し、タブのサイズを設定します。</system:String>
+	<system:String x:Key="SettingsGeneralTabTypeTabs">タブ</system:String>
+	<system:String x:Key="SettingsGeneralTabTypeSpaces">スペース</system:String>
+	<system:String x:Key="SettingsGeneralAutoIndent">自動インデント</system:String>
+	<system:String x:Key="SettingsGeneralAutoIndentDescription">前の行がコロンで終わる場合、新しい行にタブを自動的に挿入します。</system:String>
+	<system:String x:Key="SettingsGeneralAutoPairing">自動ペアリング</system:String>
+	<system:String x:Key="SettingsGeneralAutoPairingDescription">特定の記号に対して、開く文字を入力すると自動的に閉じる文字が追加されます。</system:String>
+	<system:String x:Key="SettingsGeneralAutoSave">自動保存</system:String>
+	<system:String x:Key="SettingsGeneralAutoSaveDescription">変更を加えるたびにファイルを自動的に保存します。</system:String>
+	<system:String x:Key="SettingsGeneralChangeChecker">外部ファイルの変更をチェック</system:String>
+	<system:String x:Key="SettingsGeneralChangeCheckerDescription">ファイルの内容に変更があった場合、再読み込みのプロンプトが表示されます。</system:String>
+	<system:String x:Key="SettingsGeneralRpc">Discordリッチプレゼンス</system:String>
+	<system:String x:Key="SettingsGeneralRpcDescription">DiscordのステータスにSkEditorを表示します。</system:String>
+	<system:String x:Key="SettingsGeneralPasteIndent">貼り付けの自動インデント</system:String>
+	<system:String x:Key="SettingsGeneralPasteIndentDescription">貼り付けたテキストのインデントを前の行の形式に合わせて自動的に調整します。</system:String>
+	<system:String x:Key="SettingsGeneralCheckForUpdates">更新をチェック</system:String>
+	<system:String x:Key="SettingsGeneralProjectSingleFolderClick">シングルクリックでプロジェクトフォルダを開く</system:String>
+	<system:String x:Key="SettingsGeneralProjectSingleFolderClickDescription">有効にすると、ダブルクリックの代わりにシングルクリックでフォルダを開きます。</system:String>
+
+	<!-- アバウト設定 -->
+	<system:String x:Key="SettingsAboutTitle">アバウト</system:String>
+	<system:String x:Key="SettingsAboutSkEditor">SkEditor</system:String>
+	<system:String x:Key="SettingsAboutSkEditorDescription">SkEditorはNotroによって作成されたSkriptファイル編集アプリです。</system:String>
+	<system:String x:Key="SettingsAboutVersion">バージョン</system:String>
+	<system:String x:Key="SettingsAboutVersionDescription">現在のバージョン: {0}</system:String>
+	<system:String x:Key="SettingsAboutGithub">GitHub</system:String>
+	<system:String x:Key="SettingsAboutGithubDescription">SkEditorのGitHubリポジトリを開くにはクリックしてください！</system:String>
+	<system:String x:Key="SettingsAboutDiscord">Discordサーバー</system:String>
+	<system:String x:Key="SettingsAboutDiscordDescription">SkEditorのDiscordサーバーに参加するにはクリックしてください！</system:String>
+	<system:String x:Key="SettingsAboutAppdata">AppDataフォルダを開く</system:String>
+	<system:String x:Key="SettingsAboutDevMode">開発者モード</system:String>
+	<system:String x:Key="SettingsAboutDevModeDescription">開発者機能にアクセスするために開発者モードを有効にします。</system:String>
+
+	<!-- パーソナライズ設定 -->
+	<system:String x:Key="SettingsPersonalizationTitle">パーソナライズ</system:String>
+	<system:String x:Key="SettingsPersonalizationTheme">テーマ</system:String>
+	<system:String x:Key="SettingsPersonalizationThemeDescription">アプリの色をカスタマイズします。</system:String>
+	<system:String x:Key="SettingsPersonalizationSyntax">構文ハイライト</system:String>
+	<system:String x:Key="SettingsPersonalizationSyntaxDescription">特定のテキストが構文ハイライトでどのように表示されるかを設定します。</system:String>
+	<system:String x:Key="SettingsPersonalizationFont">フォント</system:String>
+	<system:String x:Key="SettingsPersonalizationFontDescription">現在のフォント: {0}</system:String>
+	<system:String x:Key="SettingsPersonalizationHighlightCurrentLine">現在の行を強調表示</system:String>
+
+	<!-- テーマ設定 -->
+	<system:String x:Key="SettingsThemeTitle">テーマ</system:String>
+	<system:String x:Key="SettingsThemeOpenFolder">フォルダを開く</system:String>
+	<system:String x:Key="SettingsThemeCurrentTheme">現在のテーマ</system:String>
+	<system:String x:Key="SettingsThemeCurrentThemeDescription">再起動は必要ありませんが、全ての色の更新には再起動が必要かもしれません。</system:String>
+	<system:String x:Key="SettingsThemeEditThemeDescription">現在のテーマを編集し、リアルタイムで変更をプレビューします。</system:String>
+	<system:String x:Key="SettingsThemeNewThemeInfo">新しいテーマを作成するには、テーマフォルダにファイルを作成する必要があります。</system:String>
+	<system:String x:Key="SettingsThemeEditTheme">テーマを編集</system:String>
+
+	<!-- 構文ハイライト設定 -->
+	<system:String x:Key="SettingsSyntaxesTitle">構文ハイライト</system:String>
+
+	<!-- アドオン設定 -->
+	<system:String x:Key="SettingsAddonsTitle">アドオン</system:String>
+	<system:String x:Key="SettingsAddonsListTitle">アドオンのリスト</system:String>
+	
+	<!-- 接続設定 -->
+	<system:String x:Key="SettingsConnectionsTitle">接続</system:String>
+	<system:String x:Key="SettingsConnectionsDashboardButton">ダッシュボードを開く</system:String>
+	
+	<!-- ファイルタイプ設定 -->
+	<system:String x:Key="SettingsFileTypesTitle">ファイルタイプ</system:String>
+	<system:String x:Key="SettingsFileTypesWarning">このページでは、すでに作成した関連付けのみを管理できます。他のファイルタイプにはプロンプトが表示されます。</system:String>
+	<system:String x:Key="SettingsFileTypesRemove">削除</system:String>
+	
+	<!-- ファイルビュー -->
+	<system:String x:Key="FileViewImageAA">アンチエイリアス</system:String>
+
+	<!-- Discord RPC -->
+	<system:String x:Key="DiscordRpcEditing">編集中: {0}</system:String>
+
+	<!-- ボトムバー -->
+	<system:String x:Key="BottomBarLine">行 {0}</system:String>
+	<system:String x:Key="BottomBarColumn">列 {0}</system:String>
+	<system:String x:Key="BottomBarDocumentSize">長さ {0}</system:String>
+	
+	<!-- GUIジェネレーター -->
+	<system:String x:Key="GuiGeneratorTitle">タイトル</system:String>
+	<system:String x:Key="GuiGeneratorFunctionName">関数名</system:String>
+	<system:String x:Key="GuiGeneratorRowQuantity">行数</system:String>
+	<system:String x:Key="GuiGeneratorBackgroundItem">背景アイテム</system:String>
+	<system:String x:Key="GuiGeneratorPreviewButton">プレビュー</system:String>
+	<system:String x:Key="GuiGeneratorGenerateButton">生成</system:String>
+	<system:String x:Key="GuiGeneratorSkriptGui">Skript-GUIを使用</system:String>
+	<system:String x:Key="GuiGeneratorDisplayName">表示名（DisplayName）</system:String>
+	<system:String x:Key="GuiGeneratorLore">説明文（Lore）</system:String>
+	<system:String x:Key="GuiGeneratorOptional">オプショナル</system:String>
+	<system:String x:Key="GuiGeneratorCustomModelData">カスタムモデルデータID</system:String>
+	<system:String x:Key="GuiGeneratorLoreLineWatermark">右クリックで新しい行を追加</system:String>
+	<system:String x:Key="GuiGeneratorAddLoreLine">新しい説明文の行を追加</system:String>
+	<system:String x:Key="GuiGeneratorAddExampleAction">例のアクションを追加</system:String>
+	
+	<!-- コマンドジェネレーター -->
+	<system:String x:Key="CommandGeneratorName">名前</system:String>
+	<system:String x:Key="CommandGeneratorPermission">権限</system:String>
+	<system:String x:Key="CommandGeneratorNoPermissionMessage">権限がない場合のメッセージ</system:String>
+	<system:String x:Key="CommandGeneratorAliases">省略形式（Aliases）</system:String>
+	<system:String x:Key="CommandGeneratorInvalidUsageMessage">無効な場合の使用メッセージ</system:String>
+	<system:String x:Key="CommandGeneratorWhoCanUseTheCommand">コマンドを実行できる環境</system:String>
+	<system:String x:Key="CommandGeneratorPlayer">プレイヤー</system:String>
+	<system:String x:Key="CommandGeneratorConsole">コンソール</system:String>
+	<system:String x:Key="CommandGeneratorCooldown">クールダウン</system:String>
+	<system:String x:Key="CommandGeneratorTicks">ティック</system:String>
+	<system:String x:Key="CommandGeneratorSeconds">秒</system:String>
+	<system:String x:Key="CommandGeneratorMinutes">分</system:String>
+	<system:String x:Key="CommandGeneratorHours">時間</system:String>
+	<system:String x:Key="CommandGeneratorDays">日</system:String>
+	<system:String x:Key="CommandGeneratorWeeks">週</system:String>
+	<system:String x:Key="CommandGeneratorMonths">月</system:String>
+	<system:String x:Key="CommandGeneratorYears">年</system:String>
+	<system:String x:Key="CommandGeneratorGenerate">生成</system:String>
+	<system:String x:Key="CommandGeneratorPropertyMissing">{0}プロパティは必須です！</system:String>
+
+	<!-- マーケットプレイス -->
+	<system:String x:Key="MarketplaceSearch">検索</system:String>
+	<system:String x:Key="MarketplaceEnableNow">今すぐ有効にする</system:String>
+	<system:String x:Key="MarketplaceInstallSuccess">ダウンロードが成功しました！</system:String>
+	<system:String x:Key="MarketplaceInstallRestart">アドオンを読み込むにはアプリを再起動してください。</system:String>
+	<system:String x:Key="MarketplaceInstallEnableNow">今すぐ有効にしますか？</system:String>
+	<system:String x:Key="MarketplaceInstallNoNeedToRestart">アドオンは再起動なしで動作するはずですが、エラーが発生した場合は再起動してください。</system:String>
+	<system:String x:Key="MarketplaceInstallFailed">{0}のダウンロードに失敗しました！</system:String>
+	<system:String x:Key="MarketplaceUninstallSuccess">{0}をアンインストールしました！\nアドオンをアンロードするにはアプリを再起動してください。</system:String>
+	<system:String x:Key="MarketplaceUpdateSuccess">{0}を更新しました！\nアドオンを読み込むにはアプリを再起動してください。</system:String>
+	<system:String x:Key="MarketplaceUpdateFailed">{0}の更新に失敗しました！</system:String>
+	<system:String x:Key="MarketplaceLoadFailed">マーケットプレイスアイテムの読み込み中に何かがうまくいきませんでした。インターネットに接続されていますか？</system:String>
+	<system:String x:Key="MarketplaceInfo">これは非常にシンプルなマーケットプレイスデザインで、今後再設計される予定です。</system:String>
+	<system:String x:Key="MarketplaceButtonInstall">インストール</system:String>
+	<system:String x:Key="MarketplaceButtonUpdate">更新</system:String>
+	<system:String x:Key="MarketplaceButtonUninstall">アンインストール</system:String>
+	<system:String x:Key="MarketplaceButtonDisable">無効にする</system:String>
+	<system:String x:Key="MarketplaceButtonEnable">有効にする</system:String>
+
+	<!-- 行に移動 -->
+	<system:String x:Key="GoToLine">行に移動</system:String>
+	<system:String x:Key="GoToLineButton">移動</system:String>
+
+	<!-- テーマエディタ -->
+	<system:String x:Key="ThemeEditorWindowBackground">ウィンドウの背景</system:String>
+	<system:String x:Key="ThemeEditorSmallWindowBackground">小ウィンドウの背景</system:String>
+	<system:String x:Key="ThemeEditorEditorBackground">エディタの背景</system:String>
+	<system:String x:Key="ThemeEditorEditorText">エディタのテキスト</system:String>
+	<system:String x:Key="ThemeEditorLineNumber">行番号</system:String>
+	<system:String x:Key="ThemeEditorSelection">選択</system:String>
+	<system:String x:Key="ThemeEditorSelectedTabBackground">選択されたタブの背景</system:String>
+	<system:String x:Key="ThemeEditorSelectedTabBorder">選択されたタブの境界線</system:String>
+	<system:String x:Key="ThemeEditorMenuBackground">メニューの背景</system:String>
+	<system:String x:Key="ThemeEditorMenuBorder">メニューの境界線</system:String>
+	<system:String x:Key="ThemeEditorFocusedTextBoxBackground">フォーカスされたテキストボックスの背景</system:String>
+	<system:String x:Key="ThemeEditorCurrentLineBackground">現在の行の背景</system:String>
+	<system:String x:Key="ThemeEditorCurrentLineBorder">現在の行の境界線</system:String>
+	<system:String x:Key="ThemeEditorAccentColor">アクセントカラー</system:String>
+
+	<!-- ウェルカムタブ -->
+	<system:String x:Key="WelcomeTabTitle">ようこそ</system:String>
+	<system:String x:Key="WelcomeTabGettingStarted">始めましょう</system:String>
+	<system:String x:Key="WelcomeTabNeedHelp">ヘルプが必要ですか？</system:String>
+	<system:String x:Key="WelcomeGettingStartedNewFile">新しいファイル</system:String>
+	<system:String x:Key="WelcomeGettingStartedOpenFile">ファイルを開く</system:String>
+	<system:String x:Key="WelcomeGettingStartedOpenFolder">フォルダを開く</system:String>
+	<system:String x:Key="WelcomeGettingStartedSettings">設定</system:String>
+	<system:String x:Key="WelcomeNeedHelpDiscordServer">Discordサーバー</system:String>
+	<system:String x:Key="WelcomeNeedHelpGitHub">GitHub</system:String>
+
+</ResourceDictionary>
+
+
