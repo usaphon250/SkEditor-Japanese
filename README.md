@@ -4,15 +4,15 @@
 
 ## 特徴
 
-- SkEditorのメニューやオプションをすべて日本語化
+- SkEditorのメニューやオプションをほとんど日本語化
 - 日本語ユーザー向けにカスタマイズされたドキュメントとチュートリアル
-- 日本語のエラーメッセージやヘルプが表示されるため、問題の解決が簡単
 
-## インストール
+## インストール方法
 
-1. SkEditor本体を以下のリンクからダウンロードしてインストールしてください。
-   [SkEditor GitHub](https://github.com/Sashie/SkEditor)
+1. SkEditorの本体をインストールします。ダウンロードは[こちら](https://github.com/Sashie/SkEditor)から行ってください。
 
-2. このリポジトリをクローンまたはダウンロードします。
-   ```bash
-   git clone https://github.com/あなたのユーザー名/SkEditor-Japanese.git
+2. リリースから `Japanese.xaml` をダウンロードします。
+
+3. ダウンロードしたファイルを、` C:\Program Files\SkEditor\Languages` フォルダに入れてください。
+
+4. SkEditorを再起動し、日本語化が適用されていることを確認します。
