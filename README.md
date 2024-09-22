@@ -15,4 +15,4 @@
 
 3. ダウンロードしたファイルを、` C:\Program Files\SkEditor\Languages` フォルダに入れてください。
 
-4. SkEditorを再起動し、日本語化が適用されていることを確認します。
+4. SkEditorを再起動し、Settings -> General -> Language をJapaneseに変更し、日本語化が適用されていることを確認します。
